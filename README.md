@@ -14,6 +14,8 @@
 *Interactive 3D Earth with real-time environmental data*
 
 </div>
+# GaiaNet
+Updated on November 11, 2025
 
 ## 🚀 Overview
 
