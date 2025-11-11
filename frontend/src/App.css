@@ -1,0 +1,144 @@
+.app-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+.canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ui-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Data Layers Panel - Smaller & Separate */
+.data-layers-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  pointer-events: auto;
+  z-index: 1000;
+}
+
+.data-layers-panel {
+  position: relative;
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid #00ff88;
+  border-radius: 12px;
+  padding: 15px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  backdrop-filter: blur(10px);
+  min-width: 230px; /* reduced width */
+  max-width: 230px;
+  box-shadow: 0 4px 20px rgba(0, 255, 136, 0.2);
+}
+
+/* Bottom-left text */
+.bottom-left-text {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 6px 10px;
+  border-radius: 8px;
+  backdrop-filter: blur(6px);
+  z-index: 10;
+}
+
+/* Dashboard on right */
+.dashboard-container {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  pointer-events: auto;
+  z-index: 1000;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 2000;
+  pointer-events: auto;
+}
+
+.loading-content {
+  text-align: center;
+}
+
+.loading-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.loading-subtitle {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #9ca3af;
+}
+
+/* Cursor */
+.ui-overlay * {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.app-container:not(.ui-overlay *) {
+  cursor: grab;
+}
+
+.app-container:not(.ui-overlay *):active {
+  cursor: grabbing;
+}
+.app-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+
+.canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.canvas-container canvas {
+  display: block;
+  cursor: grab;
+}
+
+.canvas-container canvas:active {
+  cursor: grabbing;
+}
+
+/* ... rest of your existing CSS ... */

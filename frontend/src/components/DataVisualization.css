@@ -1,0 +1,45 @@
+.data-visualization-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #00ff88;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  z-index: 1000;
+  max-width: 300px;
+}
+
+.visualization-info h4 {
+  color: #00ff88;
+  margin: 0 0 10px 0;
+  font-size: 1.1em;
+}
+
+.active-layer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.layer-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 10px;
+  background: rgba(0, 255, 136, 0.1);
+  border-radius: 6px;
+  border: 1px solid rgba(0, 255, 136, 0.3);
+}
+
+.layer-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.layer-color.temperature { background: linear-gradient(45deg, blue, red); }
+.layer-color.vegetation { background: #00ff00; }
+.layer-color.night-lights { background: #ffffcc; }
