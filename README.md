@@ -2,10 +2,9 @@
 
 **Real-time 3D Digital Twin of Earth for Environmental Monitoring & Biodiversity Tracking**
 
-![GaiaNet](https://img.shields.io/badge/GaiaNet-Planetary_Intelligence-green)
+
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Status](https://img.shields.io/badge/status-Active_Development-orange)
-![License](https://img.shields.io/badge/license-Proprietary-red)
+
 
 <div align="center">
 
