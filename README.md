@@ -1,4 +1,4 @@
-# 🌍 GaiaNet - Planetary Intelligence System (DIGITAL EARTH TWIN)
+#  GaiaNet - Planetary Intelligence System (DIGITAL EARTH TWIN)
 
 **Real-time 3D Digital Twin of Earth for Environmental Monitoring & Biodiversity Tracking**
 
@@ -16,20 +16,20 @@
 # GaiaNet
 Updated on November 11, 2025
 
-## 🚀 Overview
+##  Overview
 
 GaiaNet is a cutting-edge planetary intelligence platform that creates a live 3D digital twin of Earth. Combining satellite data, IoT sensors, and AI analytics, it provides unprecedented visibility into our planet's ecosystems, biodiversity, and environmental health.
 
-### ✨ Key Features
+###  Key Features
 
-- **🌍 Interactive 3D Earth** - Realistic planet visualization with NASA textures
-- **📊 Live Environmental Dashboard** - Real-time metrics and analytics
-- **🛰️ Satellite Data Integration** - Direct NASA EarthData API feeds
-- **🔮 AI-Powered Predictions** - Ecological forecasting and trend analysis
-- **🌡️ Multi-layer Visualization** - Temperature, biodiversity, climate data overlays
-- **📱 Responsive Design** - Works seamlessly across all devices
+- ** Interactive 3D Earth** - Realistic planet visualization with NASA textures
+- ** Live Environmental Dashboard** - Real-time metrics and analytics
+- ** Satellite Data Integration** - Direct NASA EarthData API feeds
+- ** AI-Powered Predictions** - Ecological forecasting and trend analysis
+- ** Multi-layer Visualization** - Temperature, biodiversity, climate data overlays
+- ** Responsive Design** - Works seamlessly across all devices
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 gaianet/
@@ -52,7 +52,7 @@ gaianet/
 └── 📄 README.md                 # This File
 ```
 
-## 🛠️ Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 16+ & npm
@@ -91,12 +91,12 @@ gaianet/
    - Open `http://localhost:5173` in your browser
    - Interact with the 3D Earth and explore the dashboard
 
-## 🎮 How to Use
+##  How to Use
 
 ### 3D Earth Controls
-- **🖱️ Drag** - Rotate Earth to view different regions
-- **🔍 Scroll** - Zoom in/out for detailed inspection
-- **⏸️ Auto-rotate** - Earth spins automatically when not interacting
+- ** Drag** - Rotate Earth to view different regions
+- ** Scroll** - Zoom in/out for detailed inspection
+- ** Auto-rotate** - Earth spins automatically when not interacting
 
 ### Dashboard Features
 - **Real-time Metrics** - Live environmental data display
@@ -105,9 +105,9 @@ gaianet/
 - **Species Tracking** - Monitor biodiversity patterns
 - **Climate Indicators** - Temperature, CO2, and ecosystem health
 
-## 📊 Current Capabilities
+## Current Capabilities
 
-### ✅ Implemented & Working
+###  Implemented & Working
 - [x] Interactive 3D Earth with realistic textures
 - [x] Realistic Moon with orbital animation
 - [x] Environmental data dashboard
@@ -117,7 +117,7 @@ gaianet/
 - [x] Responsive design for all screen sizes
 - [x] Cross-browser compatibility
 
-### 🚧 In Development
+###  In Development
 - [ ] NASA EarthData API integration
 - [ ] Real satellite imagery layers
 - [ ] Live climate data feeds
@@ -125,7 +125,7 @@ gaianet/
 - [ ] Species detection algorithms
 - [ ] Historical data timeline
 
-## 🔬 Technical Details
+##  Technical Details
 
 ### Frontend Stack
 - **Framework**: React 18 + Vite
@@ -147,7 +147,7 @@ gaianet/
 - **Climate Metrics**: Temperature, biodiversity, ecosystem health
 - **Future Integration**: NASA EarthData, IoT sensors, research databases
 
-## 🎯 Use Cases
+## Use Cases
 
 ### Scientific Research
 - Climate change monitoring and analysis
@@ -167,7 +167,7 @@ gaianet/
 - Disaster response and preparedness
 - Sustainable development tracking
 
-## 🔧 Development
+##  Development
 
 ### Building from Source
 ```bash
@@ -186,7 +186,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 - **API-First Design** - RESTful endpoints for all data
 - **Performance Focused** - Optimized 3D rendering and data handling
 
-## 📈 Performance
+##  Performance
 
 ### Current Metrics
 - **Rendering**: 60fps smooth interaction
@@ -201,16 +201,11 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 - Efficient data fetching with debouncing
 - Memory leak prevention and cleanup
 
-## 🤝 Contributing
+##  Contributing
 
 This is currently a private development project. The codebase and all intellectual property are protected under proprietary license.
 
-
-
-## 🔒 License
-**PROPRIETARY SOFTWARE - ALL RIGHTS RESERVED**
-
-## 🔒 License
+##  License
 **PROPRIETARY SOFTWARE - ALL RIGHTS RESERVED**
 
 This software and all associated intellectual property are protected by copyright law. 
@@ -228,18 +223,18 @@ This software and all associated intellectual property are protected by copyrigh
 
 See [LICENSE](LICENSE) file for complete terms and conditions.
 
-## 📞 Support
+##  Support
 
 For questions about this project:
 - **GitHub Issues**: Not currently accepting external issues
 
 
-## 📄 Documentation
+##  Documentation
 - [Case Study](./docs/CASE_STUDY.md) - Comprehensive technical documentation
 
 - **Development Status**: Active development with regular updates
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **NASA** for Earth texture maps and satellite data
 - **Three.js community** for excellent 3D web graphics resources
@@ -250,24 +245,12 @@ For questions about this project:
 
 <div align="center">
 
-**🌱 Monitoring our planet's health, one data point at a time.**
+** Monitoring our planet's health, one data point at a time.**
 
 *"We cannot protect what we do not understand, and we cannot understand what we cannot see."*
 
 </div>
 
 ---
-**© 2024 GaiaNet Developer. All Rights Reserved.**
+**© 2025 GaiaNet Developer. All Rights Reserved.**
 ```
-
-This README provides:
-
-✅ **Professional appearance** with badges and structure  
-✅ **Clear installation instructions** with code blocks  
-✅ **Comprehensive feature list** of what's built  
-✅ **Technical details** for developers  
-✅ **Visual hierarchy** with emojis and sections  
-✅ **Legal protection** while being informative  
-✅ **User-friendly** for anyone viewing the project  
-✅ **Mobile-responsive** formatting
-
